@@ -1,4 +1,4 @@
-# Genetic_Algorithm
+# Genetic Algorithm
 Generic algorithm is population based search and optimization technique which works 
 based on the mechanism of natural genetics and Darwin’s principal of natural selection.
 Initial solution can be any number of set. In population based search number of 
