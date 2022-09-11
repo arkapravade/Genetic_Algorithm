@@ -7,11 +7,11 @@ chromosomes, similarly in GA solutions consists of number of genes called as str
 can consist of real or binary number. In this scope, we used binary coded GA, the string 
 here only consist of 0 and 1. The length of string depends on the accuracy of desired solution.
 
-The problem given is a minimization problem, so GA works only with maximization so converted 
-minimization to maximization. First we created initial solution set using random numbers.
+The problem given is a minimization problem, so GA works only with maximization so the problem was converted 
+from minimization to maximization. First we created initial solution set using random numbers.
 The solution strings were taken to the mating pool using binary tournament selection, the crossover
 performed is single-point as the string length is not very large. We'd have gone with double-point
 or uniform crossover otherwise. After crossover, new solution pool is created. In the last step,
-we perfomr bit-wise mutation to introduce variety in our solution space, with user-define mutation probability.
+we performe bit-wise mutation to introduce variety in our solution space, with user-defined mutation probability.
 
 The entire procedure is carried out for finite iterations and the final solution is obtained.
